@@ -1,66 +1,59 @@
-*{
-    background-color: purple;
-    } 
-    
-    .images{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Bebas Neue', sans-serif;
-        font-family: 'Permanent Marker', cursive;
-        flex-direction: column;
-        justify-content: center;
-      
-        
-    }
-    
-    .title{
-        text-align: center;
-        font-size: 20px;
-        color: white;
-        align-items: center;
-    
-    }
-    
-    img{
-        width: 10rem;
-        border-radius: 2%;
-    }
-    
-    input {
-        width: 8rem;
-        height: 3rem;
-        margin: 1rem;
-        border-radius: 5rem;
-        border: white;
-        text-align: center;
-        font-size: 15px;
-        background-color: white;
-        flex-direction:column ;
-    }
-    
-    
+* {
+  background-color: purple;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Permanent Marker", cursive;
+}
 
-    .subtitule{
-        text-align: center;
-        font-size: 20px;
-        color: white;
-        align-items: center;
-        display: column;
-        align-content: center;
-    
-    }
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  flex-direction: column;
+  justify-content: center;
+}
 
-   
-    
-    .btn{
-        text-align: center;
-        height: 3rem;
-        width: 8rem;
-        font-size: 15px;
-        color: black;
-        align-items: center;
-        background-color: white;
-        border-radius: 5rem;
-        
-    }
+.title {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+}
+
+img {
+  width: 10rem;
+  border-radius: 2%;
+}
+
+input {
+  width: 8rem;
+  height: 3rem;
+  margin: 1rem;
+  border-radius: 5rem;
+  border: white;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  flex-direction: column;
+}
+
+.subtitule {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+  display: column;
+  align-content: center;
+}
+
+.btn {
+  text-align: center;
+  height: 4rem;
+  width: 9rem;
+  font-size: 20px;
+  color: black;
+  align-items: center;
+  background-color: white;
+  border-radius: 2rem;
+  border: 3px solid black;
+}

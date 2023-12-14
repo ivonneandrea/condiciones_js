@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elige tus stickers</title>
 
-    
     <link rel="stylesheet" href="assets/css/stickers.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,33 +15,38 @@
     />
   </head>
   <body>
-    
     <div class="title">
       <h1>Stickers</h1>
       <h2>Puedes llevar hasta 10 stickers en total</h2>
     </div>
 
     <section class="images">
-    <img class="stickers" src="assets/img/stickers1.webp" alt="imagen de gato sicodelico" />
-      <input type="text" value="0" id="stickers-a" />
-    
-      <img class="stickers"  src="assets/img/stickers2.webp" alt="imagen de catrina" />
-      <input type="text" value="0" id="stickers-b"/>
-   
-      <img class="stickers"  src="assets/img/stickers3.webp" alt="imagen de carabela sicodelica" />
-      <input type="text" value="0" id="stickers-c"/>
+      <img
+        class="stickers"
+        src="assets/img/stickers1.webp"
+        alt="imagen de gato sicodelico"
+      />
+      <input type="text" name="stickers" id="stickers-a" />
 
+      <img
+        class="stickers"
+        src="assets/img/stickers2.webp"
+        alt="imagen de catrina"
+      />
+      <input type="text" name="stickers" id="stickers-b" />
+
+      <img
+        class="stickers"
+        src="assets/img/stickers3.webp"
+        alt="imagen de carabela sicodelica"
+      />
+      <input type="text" name="stickers" id="stickers-c" />
     </section>
     <section class="subtitule">
-
-      
-        <button class="btn" id="Total">Verificar</button>
-        <p id="text"></p>
-       
-       
+      <button class="btn" id="Total">Verificar</button>
+      <p id="text"></p>
     </section>
- 
-  
+
     <script src="assets/js/stickers.js"></script>
-</body>
+  </body>
 </html>
