@@ -1,0 +1,29 @@
+body{
+    background-color:black;
+    width: 90vw;
+    height: 90vh;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Russo One', sans-serif; 
+}
+
+.img{
+    height: 40rem;
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    border: 2px solid red;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+}
+  
