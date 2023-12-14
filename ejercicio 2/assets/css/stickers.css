@@ -10,7 +10,7 @@
         font-family: 'Permanent Marker', cursive;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+      
         
     }
     
@@ -39,13 +39,19 @@
         flex-direction:column ;
     }
     
+    
+
     .subtitule{
         text-align: center;
         font-size: 20px;
         color: white;
         align-items: center;
+        display: column;
+        align-content: center;
     
     }
+
+   
     
     .btn{
         text-align: center;
@@ -56,4 +62,5 @@
         align-items: center;
         background-color: white;
         border-radius: 5rem;
+        
     }
